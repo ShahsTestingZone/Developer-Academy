@@ -13,6 +13,7 @@ Concepts to keep in mind:
 ● Print
 ● While Loops
 """
+
 import random
 
 minValue = 1
@@ -24,9 +25,8 @@ while rollAgain == 'y' or rollAgain == 'yes':
     print('Rolling the dice')
     diceValue = random.randint(minValue, maxValue)
     print(f'You rolled a {diceValue}!')
-    #doesn't work with lowercase y or yes, only works with exact specifed parameters
-    rollAgain = input('Wanna roll again? Please type Yes or No: ').lower()
+    #use the lower function, so if user input includes a capital letter then the code will work. 
+    rollAgain = input('Do you  want to roll again? Please type Yes or No: ').lower()
     print('')
-
 
 print('Thank you for playing!')
