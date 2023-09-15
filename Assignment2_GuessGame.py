@@ -44,8 +44,5 @@ while userGuess == 'wrong':
              print("No, go lower. Guess again")
          elif number < randomValue:
              print("No, go higher. Guess again")
-         else:
-            print("Sorry, that's incorrect!")
-
     except ValueError:
          print("I said guess a number!")
