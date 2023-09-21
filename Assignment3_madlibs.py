@@ -19,19 +19,10 @@ Have some fun coming up with some wacky stories for this!
 
 #Input
 
-item = input("List an item from the supermarket: ")
-item2 = input ("List an item from the supermarket: ")
-Item3 = input ("List an item from the supermarket: ")
+color = input("Enter a color: ")
+plural_noun = input("Enter a Plural Noun: ")
+celebrity = input("Enter a celebrity: ")
 
-
-# Story
-
-print(f"I went to shop and bought {item}")
-print(f"I went to shop and bought {item}' and {item2}")
-print(f"I went to shop and bought {item} and {item2} and {Item3}")
-
-print("======================================")
-print("I went to shop and bought " + item)
-print("I went to shop and bought " + item + " and " + item2) 
-print("I went to shop and bought " + item + " and " + item2 + " and " + Item3) 
-
+print("Roses are " + color)
+print( plural_noun + " are blue")
+print("I love " + celebrity)
