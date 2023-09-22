@@ -21,8 +21,20 @@ Have some fun coming up with some wacky stories for this!
 
 color = input("Enter a color: ")
 plural_noun = input("Enter a Plural Noun: ")
-celebrity = input("Enter a celebrity: ")
+blank= input("Complete the sentence: 'Me + xxx = Us: ")
 
+print("=====================================")
 print("Roses are " + color)
 print( plural_noun + " are blue")
-print("I love " + celebrity)
+print ("This assignment is created for " + blank)
+print("=======================================")
+
+# Our code is open-source, please let us know how you would like to improve it.
+# Contribute to out team through patreon or paypal 
+
+#Suggestions
+# Add while loop to continue playing game
+# Make sure inputs are not digits
+# Extend Poem
+# Add function to check that words in the game are not repeated, if in a loop
+# Adapt the game to be similar to cards of humanity
